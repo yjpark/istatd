@@ -27,11 +27,11 @@
  * This plugin writes collectd stats to istatd.  It started life as the collectd
  * CSV plugin.
  */
-#include <collectd/collectd.h>
-#include <collectd/plugin.h>
-#include <collectd/common.h>
-#include <collectd/utils_cache.h>
-#include <collectd/utils_parse_option.h>
+#include <collectd/core/collectd.h>
+#include <collectd/core/plugin.h>
+#include <collectd/core/common.h>
+#include <collectd/core/utils_cache.h>
+#include <collectd/core/utils_parse_option.h>
 
 #include <stdio.h>
 #include <sys/types.h>

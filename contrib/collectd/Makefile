@@ -1,5 +1,5 @@
 CC=gcc
-CFLAGS+= -I/usr/include -Wall -DHAVE_CONFIG_H 
+CFLAGS+= -I/usr/include -I/usr/include/collectd -Wall -DHAVE_CONFIG_H 
 LDFLAGS+= -L/usr/lib -lstatgrab -shared -fPIC
 PLUGIN_INSTALL_DIR = /usr/lib/collectd
 
